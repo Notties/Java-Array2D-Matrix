@@ -14,23 +14,27 @@ public class Ass5Matries {
         int ch;
 
         do {
-            ch = Integer.parseInt(JOptionPane
-                    .showInputDialog("##############" + "\n Sparse Matrices" + "\n ##############" + "\n 1. Diagonal"
-                            + "\n 2. Lower triangular" + "\n 3. print" + "\n 0. exit" + "\n ##############"));
+            try{
+                ch = Integer.parseInt(JOptionPane
+                        .showInputDialog("##############" + "\n Sparse Matrices" + "\n ##############" + "\n 1. Diagonal"
+                                + "\n 2. Lower triangular" + "\n 3. print" + "\n 0. exit" + "\n ##############"));
 
-            switch (ch) {
-                case 1:
-                    a.diagonal();
-                    break;
-                case 2:
-                    a.triangular();
-                    break;
-                case 3:
-                    a.submenu();
-                    break;
-                case 0:
-                    JOptionPane.showMessageDialog(null, "Program Exit");
-                    System.exit(0);
+                switch (ch) {
+                    case 1:
+                        a.diagonal();
+                        break;
+                    case 2:
+                        a.triangular();
+                        break;
+                    case 3:
+                        a.submenu();
+                        break;
+                    case 0:
+                        JOptionPane.showMessageDialog(null, "Program Exit");
+                        System.exit(0);
+                }
+            }catch (NumberFormatException e) {
+                JOptionPane.showMessageDialog(null, "Please Input Number");
             }
         } while (ch != 0);
     }
