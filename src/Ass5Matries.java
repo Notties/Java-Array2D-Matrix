@@ -37,7 +37,7 @@ public class Ass5Matries {
                 JOptionPane.showMessageDialog(null, "Please Input Number");
             }
         } while (ch != 0);
-    }
+    }//end menu
 
     public void submenu() {
         int ch;
