@@ -117,7 +117,7 @@ public class Ass5Matries {
 
         JOptionPane.showMessageDialog(null, out);
 
-    }
+    }//end diagonal
 
     public void triangular() {
 
