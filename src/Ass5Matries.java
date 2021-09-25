@@ -59,7 +59,7 @@ public class Ass5Matries {
                     break;
             }
         } while (ch != 0);
-    }
+    }//end submenu
 
     public void diagonal() {
 
