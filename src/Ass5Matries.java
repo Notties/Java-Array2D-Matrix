@@ -8,7 +8,7 @@ public class Ass5Matries {
 
     public static void main(String[] args) throws Exception {
         a.menu();
-    }
+    }//end main
 
     public void menu() {
         int ch;
@@ -258,4 +258,4 @@ public class Ass5Matries {
         JOptionPane.showMessageDialog(null, out);
 
     }
-}
+}//end class
