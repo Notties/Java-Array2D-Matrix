@@ -216,7 +216,7 @@ public class Ass5Matries {
         }
         JOptionPane.showMessageDialog(null, out);
 
-    }
+    }//end printRowMajor
 
     public void printcolMajor() {
         String out = "Print Diagonal Matrix\n";
