@@ -8,7 +8,7 @@ public class Ass5Matries {
 
     public static void main(String[] args) throws Exception {
         a.menu();
-    }//end main
+    }//end mai
 
     public void menu() {
         int ch;
